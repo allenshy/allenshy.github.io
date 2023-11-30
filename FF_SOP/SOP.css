@@ -1,0 +1,24 @@
+header {
+    background-color: rgb(255, 196, 0);
+    color: #000000;
+    text-align: center;
+    padding: 1em;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    padding: 1em;
+}
+
+@media only screen and (max-width: 600px) {
+
+    /* 適應手機的樣式 */
+    main {
+        padding: 0.5em;
+    }
+}
